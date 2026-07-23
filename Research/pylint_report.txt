@@ -1,0 +1,15 @@
+************* Module Code
+Code\__init__.py:1:0: C0103: Module name "Code" doesn't conform to snake_case naming style (invalid-name)
+************* Module Code.main
+Code\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Code\main.py:12:0: C0116: Missing function or method docstring (missing-function-docstring)
+Code\main.py:12:0: R1711: Useless return at end of function or method (useless-return)
+Code\main.py:12:18: W0613: Unused argument 'video_url' (unused-argument)
+Code\main.py:25:0: C0116: Missing function or method docstring (missing-function-docstring)
+Code\main.py:26:4: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+Code\main.py:29:4: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+Code\main.py:5:0: C0411: standard import "warnings" should be placed before first party imports "Code.Data_ingesion.video_text_conversion.video_to_text", "Code.DB_creation.vectordb.create_db", "Code.model.pipeline.chat", "Code.utils.logger.get_logger"  (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 5.50/10
+

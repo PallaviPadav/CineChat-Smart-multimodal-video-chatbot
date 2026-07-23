@@ -1,0 +1,81 @@
+(irag) F:\AgenticAI\Workplace\CineChat-Smart-multimodal-video-chatbot>radon cc Code -s 
+Code\main.py
+    F 12:0 process_video - A (1)
+    F 25:0 ask_question - A (1)
+Code\Data_ingesion\extract_frames.py
+    F 24:0 extract_frame - B (10)
+    F 12:0 is_empty_frame - A (1)
+    F 18:0 is_duplicate - A (1)
+Code\Data_ingesion\fetch_video.py
+    F 40:0 download_video - B (7)
+    F 10:0 save_metadata - A (1)
+    F 18:0 trim_video - A (1)
+Code\Data_ingesion\OCR_extraction.py
+    F 11:0 extract_text_from_frames - A (5)
+Code\Data_ingesion\video_text_conversion.py
+    F 37:0 audio_to_text - A (5)
+    F 17:0 video_to_audio - A (3)
+    F 67:0 video_to_text - A (2)
+Code\DB_creation\chunking_text.py
+    F 113:0 chunking_metadata - B (10)
+    F 29:0 semantic_chunking - B (9)
+Code\DB_creation\embedding_lancedb.py
+    F 10:0 embedding_lancedb - B (7)
+Code\DB_creation\frame_text_conversion.py
+    F 27:0 frame_to_text_conversion - A (3)
+Code\DB_creation\unified_data.py
+    F 10:0 create_unified_data - A (3)
+Code\DB_creation\vectordb.py
+    F 5:0 create_db - A (1)
+Code\Evaluation\chunk_eval.py
+    F 14:0 semantic_cohesion - A (3)
+    F 34:0 chunk_size_eval - A (3)
+Code\Evaluation\mean_reciprocal_rank.py
+    F 12:0 mean_reciprocal_rank - B (6)
+Code\Evaluation\ragas_eval.py
+    F 24:0 build_sample - A (2)
+    F 59:0 evaluate_rag - A (1)
+Code\Evaluation\retrival_eval.py
+    F 20:0 precision_recall - A (5)
+    F 72:0 retriever_check - A (2)
+    F 93:0 relevant_chunk_id - A (1)
+Code\model\llm_loader.py
+    F 17:0 load_model - A (2)
+Code\model\llm_model.py
+    F 14:0 generate_answer - A (4)
+Code\model\model_frame.py
+    F 14:0 model_frame_text - A (1)
+Code\model\pipeline.py
+    F 13:0 chat - A (1)
+Code\model\summarizer.py
+    F 8:0 summarize_video - A (1)
+    F 34:0 get_summary - A (1)
+Code\Retriever\dense_retriever.py
+    F 27:0 generate_query_embedding - A (2)
+    F 58:0 dense_retrieve - A (2)
+    F 100:0 print_results - A (2)
+Code\Retriever\hybrid_retriever.py
+    F 125:0 rerank_results - B (6)
+    F 33:0 load_resources - A (3)
+    F 104:0 print_results - A (3)
+    F 67:0 hybrid_retrieve - A (2)
+    F 56:0 generate_query_embedding - A (1)
+    F 169:0 mrr_testing_purpose - A (1)
+Code\Retriever\keyword_retriever.py
+    F 35:0 keyword_retrieve - A (2)
+    F 77:0 print_results - A (2)
+Code\Retriever\prompt_builder.py
+    F 6:0 build_prompt - A (2)
+Code\utils\logger.py
+    F 6:0 get_logger - A (2)
+
+===================================
+Grades:
+
+A → Excellent
+B → Good
+C → Moderate
+D → Needs improvement
+E/F → Complex, consider refactoring
+==============================
+Overall code complexity is Good

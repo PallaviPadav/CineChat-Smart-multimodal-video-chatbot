@@ -1,0 +1,3 @@
+Code\Evaluation\ragas_eval.py:48:34: W291 trailing whitespace
+Code\Evaluation\ragas_eval.py:49:26: W291 trailing whitespace
+Code\Evaluation\ragas_eval.py:50:30: W291 trailing whitespace

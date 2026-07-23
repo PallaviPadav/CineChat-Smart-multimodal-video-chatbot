@@ -1,0 +1,22 @@
+[
+    {
+        "frame_id": 0,
+        "frame_name": "frame_0000.jpg",
+        "timestamp_sec": 0.0
+    },
+    {
+        "frame_id": 1,
+        "frame_name": "frame_0001.jpg",
+        "timestamp_sec": 60.0
+    },
+    {
+        "frame_id": 2,
+        "frame_name": "frame_0002.jpg",
+        "timestamp_sec": 120.0
+    },
+    {
+        "frame_id": 3,
+        "frame_name": "frame_0003.jpg",
+        "timestamp_sec": 150.0
+    }
+]

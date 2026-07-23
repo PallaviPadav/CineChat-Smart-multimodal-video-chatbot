@@ -1,0 +1,10 @@
+************* Module Code
+Code\__init__.py:1:0: C0103: Module name "Code" doesn't conform to snake_case naming style (invalid-name)
+************* Module Code.main
+Code\main.py:18:18: W0613: Unused argument 'video_url' (unused-argument)
+Code\main.py:50:4: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+Code\main.py:53:4: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+
+------------------------------------------------------------------
+Your code has been rated at 7.89/10 (previous run: 5.50/10, +2.39)
+

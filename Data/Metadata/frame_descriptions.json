@@ -1,0 +1,18 @@
+[
+    {
+        "frame_name": "frame_0000.jpg",
+        "description": " The video frame is a slide from a presentation discussing large language models. It highlights the capabilities of these models, including their massive scale, extensive training, and model size. The slide also mentions that they can be fine-tuned for specific tasks. The model size is also mentioned, with a value of 1 Trillion. The slide also includes a diagram that visually represents the model's capabilities. The text on the slide is in white and is clear and easy to read."
+    },
+    {
+        "frame_name": "frame_0001.jpg",
+        "description": " The video is about how LLM (Language Modeling) works. It starts with the first step, which is tokenization. This involves breaking down text into tokens (words or subwords) and converting them into numerical representations. The next step is embedding, which is the process of transforming tokens into vectors in a high-dimensional space that captures semantic meaning. The third step is processing, which is the model predicting the next token based on previous context, building the response one token at a time. The final step is generation, which is the model predicting the next token based on the previous context, building the response one token at a time. The video also mentions that LLM doesn't understand text in a human sense, as they learn statistical patterns in language through massive parameter optimization during training."
+    },
+    {
+        "frame_name": "frame_0002.jpg",
+        "description": " The video is about a training process for language models. It starts with a blue background with a pink speech bubble at the top left corner. The text reads \"Training LLMs\" and \"Pre-training\". Below this, there are two bullet points: \"The model learns language patterns from massive text corpora through self-supervised learning.\" and \"The pre-trained model is adapted for specific tasks or to align with human preferences.\"\n\nThe next section is titled \"Fine-tuning\" and has a pink speech bubble at the top left corner. The text reads \"The pre-trained model is adapted for specific tasks or to align with human preferences.\"\n\nThe next section is titled \"RLHF\" and has a pink speech bubble at the top left corner. The text reads \"Reinforcement Learning from Human Feedback\"\n\nThe next section is titled \"Instruction Tuning\" and has a pink speech bubble at the top left corner. The text reads \"Teaching models to follow instructions\"\n\nThe next section is titled \"Domain Adaptation\" and has a pink speech bubble at the top left corner. The text reads \"Specializing for specific fields\"\n\nThe final section is"
+    },
+    {
+        "frame_name": "frame_0003.jpg",
+        "description": " The video is about the key LLM architectures. It starts with a blue background with white text that reads \"Key LLM Architectures\". Below this, there are four different architectures listed: BERT, GPT, OpenAI, and T5. Each architecture has a button next to it, indicating that it is a dropdown menu. The text on the buttons is in white and blue, making them stand out against the blue background. The layout of the buttons is simple and easy to understand, with clear and concise text. The video does not contain any images or other visual elements. The focus is solely on the text and the layout of the buttons."
+    }
+]
